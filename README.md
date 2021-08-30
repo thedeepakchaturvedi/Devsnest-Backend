@@ -4,8 +4,8 @@
      <pre><samp><&nbsp; DEVSNEST--BACKEND &nbsp;></samp></pre>
    </h2>
 
-| Topics                  | Page Link / THAs | Repo Link (If external) |
-| ----------------------- | :--------------: | ----------------------: |
-| 01 - Redis & SQL Basics |        -         |                       - |
+| Topics                  | Page Link / THAs | Repo Link (If external) |               About                |
+| ----------------------- | :--------------: | :---------------------: | :--------------------------------: |
+| 01 - Redis & SQL Basics |        -         |            -            | Complete Redis + PostgreSQL Basics |
 
 </p>
