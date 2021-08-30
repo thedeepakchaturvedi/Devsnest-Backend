@@ -49,7 +49,7 @@ To save JSON object in our local storage
 
 ## REDIS COMMANDS :
 
-### < GENERAL >
+### `< GENERAL >`
 
 ```
 PING "string" ==> to display msg
@@ -74,7 +74,7 @@ TTL --key-- ==> shows remaining time of key before expiration
 SETEX --key-- --time-- --value-- ==> creates the key with value and expiration time t.
 ```
 
-### < ARRAYS >
+### `< ARRAYS >`
 
 ```
 LPUSH --key-- --value(s)-- ==> adds element(s) in the arr key from left.
@@ -90,7 +90,7 @@ LRANGE --key-- --start index [0]-- --end index [-1]--  ==> displays every elemen
 // GET key can't be used in case of array because it operates on strings. So we use LRANGE //
 ```
 
-### < SETS >
+### `< SETS >`
 
 ```
 SADD --key-- --value(s)-- ==> adds elements in the set, can't push duplicate values.
@@ -98,7 +98,7 @@ SADD --key-- --value(s)-- ==> adds elements in the set, can't push duplicate val
 SMEMBERS --key-- ==> displays all values
 ```
 
-### < OBJECTS >
+### `< OBJECTS >`
 
 ```
 HSET --key-- --field-- --value-- ==> creates object key having field f with value v.
