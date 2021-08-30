@@ -37,7 +37,7 @@ To save JSON object in our local storage
 ```json
 {
   "str": "xyz",
-  "num": 34,
+  "num": "34",
   "arr": ["val1", "val2", "val3", "valn"],
   "set": ["distinct1", "distinct2", "distinctn"],
   "obj": {
