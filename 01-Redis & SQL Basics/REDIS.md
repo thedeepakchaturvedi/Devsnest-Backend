@@ -28,11 +28,11 @@ $ redis-cli
 
 ## WHY WE USE REDIS :
 
-To save JSON object in our local storage
+To save key-val pair (JSON like object) in our local storage
 
 <br>
 
-## REDIS JSON Example :
+## REDIS data storage structure Example :
 
 ```json
 {
