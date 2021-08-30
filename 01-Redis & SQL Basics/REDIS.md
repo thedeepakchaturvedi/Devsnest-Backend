@@ -54,38 +54,38 @@ To save key-val pair (JSON like object) in our local storage
 ```
 PING "string" ==> to display msg
 
-SET --key-- --value-- ==> sets value of json key
-GET --key-- ==> displays value of particular key
+SET `key` `value` ==> sets value of json key
+GET `key` ==> displays value of particular key
 
-EXISTS --key-- ==> displays 1 if it exists otherwise 0
+EXISTS `key` ==> displays 1 if it exists otherwise 0
 
-DEL --key-- ==> deletes the key
+DEL `key` ==> deletes the key
 
 KEYS * ==> displays all keys
 
 FLUSHALL ==> delets all keys
 
-EXPIRE --key-- --time(sec)-- ==> deletes particular existing key after t seconds
+EXPIRE `key` `time(sec)` ==> deletes particular existing key after t seconds
 
-TTL --key-- ==> shows remaining time of key before expiration
+TTL `key` ==> shows remaining time of key before expiration
 
 // TTL : Time to live
 
-SETEX --key-- --time-- --value-- ==> creates the key with value and expiration time t.
+SETEX `key` `time` `value` ==> creates the key with value and expiration time t.
 ```
 
 ### `< ARRAYS >`
 
 ```
-LPUSH --key-- --value(s)-- ==> adds element(s) in the arr key from left.
+LPUSH `key` `value(s)` ==> adds element(s) in the arr key from left.
 
-RPUSH --key-- --value(s)-- ==> adds element(s) in the arr key from right.
+RPUSH `key` `value(s)` ==> adds element(s) in the arr key from right.
 
-LPOP --key-- ==> deletes element from left.
+LPOP `key` ==> deletes element from left.
 
-RPOP --key-- ==> deletes element from right.
+RPOP `key` ==> deletes element from right.
 
-LRANGE --key-- --start index [0]-- --end index [-1]--  ==> displays every element in the key
+LRANGE `key` `start index [0]` `end index [-1]`  ==> displays every element in the key
 
 // GET key can't be used in case of array because it operates on strings. So we use LRANGE //
 ```
@@ -93,22 +93,22 @@ LRANGE --key-- --start index [0]-- --end index [-1]--  ==> displays every elemen
 ### `< SETS >`
 
 ```
-SADD --key-- --value(s)-- ==> adds elements in the set, can't push duplicate values.
+SADD `key` `value(s)` ==> adds elements in the set, can't push duplicate values.
 
-SMEMBERS --key-- ==> displays all values
+SMEMBERS `key` ==> displays all values
 ```
 
 ### `< OBJECTS >`
 
 ```
-HSET --key-- --field-- --value-- ==> creates object key having field f with value v.
+HSET `key` `field` `value` ==> creates object key having field f with value v.
 
-HGET --key-- --field-- ==> displays value of the field inside key
+HGET `key` `field` ==> displays value of the field inside key
 
-HDEL --key-- --field-- ==> delets the field
+HDEL `key` `field` ==> delets the field
 
-HGETALL --key-- ==> displays each field value pairs of the object key.
+HGETALL `key` ==> displays each field value pairs of the object key.
 
-HEXISTS --key-- --field-- ==> to check the field exists or not
+HEXISTS `key` `field` ==> to check the field exists or not
 
 ```
