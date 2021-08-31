@@ -5,11 +5,7 @@
    </h2>
 </p>
 
-<center>
-
-[BACKEND PAGE LINK](https://thedeepakchaturvedi.github.io/Devsnest-Backend/)
-
-</center>
+## [BACKEND PAGE LINK](https://thedeepakchaturvedi.github.io/Devsnest-Backend/)
 
 | Topics                  | Page Link / THAs | Repo Link (If external) |               About                |
 | ----------------------- | :--------------: | :---------------------: | :--------------------------------: |
