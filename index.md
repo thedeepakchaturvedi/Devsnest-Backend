@@ -2,6 +2,7 @@
 layout: default
 ---
 
-| Topics                  | Page Link / THAs                                                        | Repo Link (If external) |               About                |
-| ----------------------- | :---------------------------------------------------------------------- | :---------------------: | :--------------------------------: |
-| 01 - Redis & SQL Basics | [REDIS](/links/day1/REDIS.md) / [POSTGRESQL](/links/day1/POSTGRESQL.md) |            -            | Complete Redis + PostgreSQL Basics |
+| Topics                            | Page Link / THAs                        | Repo Link (If external) |                   About                   |
+| --------------------------------- | :-------------------------------------- | :---------------------: | :---------------------------------------: |
+| 01 - Redis & SQL Basics           | [REDIS](/links/day1/REDIS.md)           |            -            |    Complete Redis + PostgreSQL Basics     |
+| 02 - Practce SQL and foreign Keys | [POSTGRESQL](/links/day1/POSTGRESQL.md) |            -            | PostgreSQL Commands + Foreign Key concept |
