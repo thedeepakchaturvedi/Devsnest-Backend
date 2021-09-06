@@ -12,8 +12,9 @@
    </h2>
 </p>
 
-| Topics                           |  Page Link / THAs  | Repo Link (If external) |                  About                   |
-| -------------------------------- | :----------------: | :---------------------: | :--------------------------------------: |
-| 01 - Redis & SQL Basics          | Visit Backend Site |            -            |    Complete Redis + PostgreSQL Basics    |
-| 02 - Practice SQL & Foreign Keys | Visit Backend Site |            -            | PostgeSQL Commands + Foreign key concept |
-| 03 - Practice Redis              | Visit Backend Site |            -            |       Publish/Subscribe + Streams        |
+| Topics                                               |  Page Link / THAs  | Repo Link (If external) |                  About                   |
+| ---------------------------------------------------- | :----------------: | :---------------------: | :--------------------------------------: |
+| 01 - Redis & SQL Basics                              | Visit Backend Site |            -            |    Complete Redis + PostgreSQL Basics    |
+| 02 - Practice SQL & Foreign Keys                     | Visit Backend Site |            -            | PostgeSQL Commands + Foreign key concept |
+| 03 - Practice Redis                                  | Visit Backend Site |            -            |       Publish/Subscribe + Streams        |
+| 04 - How internet works and REST and intro to nodejs |      No THAs       |            -            |         Internet + APIs + NodeJS         |
