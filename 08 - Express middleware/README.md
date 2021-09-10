@@ -11,7 +11,6 @@ Intermediate function used to check condition, if the condition is true then mov
 ## Sample Code :
 
 ```js
-const e = require("express");
 const express = require("express");
 const app = express();
 
