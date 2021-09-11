@@ -12,6 +12,8 @@ app.set("view engine", "jade");
 // ----------------------------- //
 
 app.use("/", (req, res) => {
+  // middleware
+
   // comment every command before starting the server
   // res.sendFile(path.join(__dirname, "public/Hello.txt"), "test.txt"); // sends it to frontend
   // res.download(path.join(__dirname, "public/Hello.txt"), "test.txt"); // downloads the file
